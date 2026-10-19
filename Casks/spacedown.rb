@@ -2,7 +2,7 @@ cask "spacedown" do
   version "1.0"
   sha256 "a6174a135360bdc682cab2c8456bf90d523ca4e4b7936d260629f6289c0821f1"
 
-  url "https://github.com/Czw96/Spacedown-releases/releases/download/v#{version}/Spacedown-#{version}.dmg"
+  url "https://github.com/Czw96/homebrew-spacedown/releases/download/v#{version}/Spacedown-#{version}.dmg"
   name "Spacedown"
   desc "Markdown Quick Look preview and read-only multi-tab viewer"
   homepage "https://github.com/Czw96/Spacedown"
