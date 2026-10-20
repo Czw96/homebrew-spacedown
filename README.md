@@ -6,7 +6,7 @@ Homebrew tap for [Spacedown](https://github.com/Czw96/Spacedown) —— macOS �
 ```bash
 brew tap czw96/spacedown
 brew trust czw96/spacedown   # 第三方 tap 首次需要显式信任（Homebrew 的安全机制）
-brew install --cask --no-quarantine spacedown
+brew install --cask spacedown
 ```
 
 > `brew search spacedown` 找不到它也是同一个原因：未信任的 tap 不会被搜索索引，
