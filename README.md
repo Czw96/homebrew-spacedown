@@ -22,5 +22,14 @@ brew uninstall --cask --zap spacedown   # --zap 会清掉偏好、QL 沙箱容�
 首次打开若被 Gatekeeper 拦（未公证）：系统设置 → 隐私与安全性 →「仍要打开」，
 或 `xattr -dr com.apple.quarantine /Applications/Spacedown.app`。
 
+### 方式三：一行脚本
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Czw96/homebrew-spacedown/main/install.sh | bash
+```
+
+下载最新版 dmg → 校验 sha256 → 装进「应用程序」→ 清掉 quarantine → 启动一次。
+不想直接 pipe 可以先看脚本：`curl -fsSL … -o install.sh && less install.sh && bash install.sh`。
+
 装完先启动一次 Spacedown（系统才会登记它的 Quick Look 扩展），再用菜单
 「显示 → 接管 Markdown 空格预览」。
