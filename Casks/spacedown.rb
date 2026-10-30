@@ -1,6 +1,6 @@
 cask "spacedown" do
-  version "1.0.5"
-  sha256 "e9f6286eb363ffa7865050aa1f2cb3a0e088558a7a1f7ffe41d01cdb89f2a50d"
+  version "1.0.7"
+  sha256 "7075495b58aff8c683f8ee882ac994bee3154c1c315910ddf9be04f65478bf01"
 
   url "https://github.com/Czw96/homebrew-spacedown/releases/download/v#{version}/Spacedown-#{version}.dmg"
   name "Spacedown"
